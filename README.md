@@ -4,6 +4,7 @@ A CSV parser taking a 4 column log file detailing email deliverability errors an
 
 **Development Stack (as of 27 Aug 2017):**
 
+* Dev Machine: OS X
 * Erlang: v20
 * Elixir: v1.5.1
 * Nimble CSV: v0.2.0
@@ -11,7 +12,8 @@ A CSV parser taking a 4 column log file detailing email deliverability errors an
 
 ## Running Locally
 
-* clone to local machine
+* (OS X) install Erlang, Elixir & Hex: (1) $ brew update ; (2) $ brew install elixir
+* clone this repo to your local machine
 * cd to root folder (cio-parsel)
 * run: $ mix deps.get
 * run: $ mix compile
