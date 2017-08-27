@@ -12,7 +12,7 @@ A CSV parser taking a 4 column log file detailing email deliverability errors an
 ## Running Locally
 
 * clone to local machine
-* cd to root folder (parsel)
+* cd to root folder (cio-parsel)
 * run: $ mix deps.get
 * run: $ mix compile
 * run the Elixir interactive shell: $ iex -S mix
@@ -22,7 +22,7 @@ Note the 2 params for this function: the "path/to/logfile" and how many results 
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
+If [available in Hex](https://hex.pm/docs/publish) (not at the moment), the package can be installed
 by adding `parsel` to your list of dependencies in `mix.exs`:
 
 ```elixir
